@@ -4,6 +4,7 @@ class Tree{
   }
   
   static definition(){
+<<<<<<< HEAD
    return `A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves.`;
   }
 }
@@ -27,5 +28,8 @@ class Evergreen extends Tree{
   
   static definition(){
     return `${super.definition()} Evergreens keep their leaves all year round.`;
+=======
+   return `` 
+>>>>>>> 1504dfa62844539b98072fab8ab07608633daf6c
   }
 }
